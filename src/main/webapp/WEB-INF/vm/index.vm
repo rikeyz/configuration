@@ -4,6 +4,7 @@
 </head>
 <body>
     <div class="container">
+        这是一个配置管理页面
         <div>
         <select id="profileChose" style="width: 100px; height: 20px; text-align: center;">
             <option>dev</option>
