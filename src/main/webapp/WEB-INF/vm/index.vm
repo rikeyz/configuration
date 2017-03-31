@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>${projectName} - 配置管理</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+        <select id="profileChose" style="width: 100px; height: 20px; text-align: center;">
+            <option>dev</option>
+            <option>test</option>
+            <option>product</option>
+        </select>
+        </div>
+        <div>
+            #foreach(${p} in $properties.entrySet())
+                <div>$p.key - $p.value</div>
+            #end
+        </div>
+    </div>
+</body>
+</html>
